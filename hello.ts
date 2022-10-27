@@ -1,6 +1,6 @@
-const hello = (name:string) => {
+const hello =  (name:string) => {
     return `hello ${name}`
 }
 
-console.log(hello('bob'))
-hello(1)
+// console.log(hello('bob'))
+// hello(1)
