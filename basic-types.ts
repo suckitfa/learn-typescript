@@ -11,3 +11,10 @@ let u:undefined = undefined
 let n:null = null
 
 // let num:number = undefined
+
+// any类型: 不会进行类型检测
+let notsure:any = 'a string'
+notsure = 1
+notsure = false
+notsure = undefined
+notsure.getNam()
