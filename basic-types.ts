@@ -18,3 +18,7 @@ notsure = 1
 notsure = false
 notsure = undefined
 notsure.getNam()
+
+// 联合类型
+let numberOrString: number | string = 'hello'
+numberOrString = 1
