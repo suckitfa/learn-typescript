@@ -22,3 +22,18 @@ notsure.getNam()
 // 联合类型
 let numberOrString: number | string = 'hello'
 numberOrString = 1
+
+// 数组，会对数组内的元素进行限制，元素被限制了
+let arrOfNumbers:number[] = [1,2,3,4]
+arrOfNumbers.push('a')
+
+// 类数组: ts有一些事内置的数据类型，提前给定义好了
+function test() {
+    console.log(arguments)
+    arguments.length
+    // let htmlCollection:Node = 
+}
+
+// 元祖中元素可以放不同的数据类型
+let user:[string,number] = ['vikings',12]
+// user = ['molly',2,'']
