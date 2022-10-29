@@ -2,7 +2,8 @@
 // 对象：类的实例
 // 面向对象: OOP 封装，继承，多态
 class Animal {
-    name:string;
+    protected name:string;
+    static catogrioes:string[] = ['hello ','hi']
     constructor(name:string) {
         this.name = name;
     }
@@ -35,3 +36,8 @@ class Cat extends Animal {
 
 const maomao = new Cat('maomao')
 console.log(maomao.run())
+// 默认的属性和方法都是public
+// 子类和父类可以访问 protected
+// 私有属性 private
+// 只读 readonly
+// static 
