@@ -36,3 +36,6 @@ function getLength(input:string | number) : number {
     }
 }
 
+
+
+// 声明文件
